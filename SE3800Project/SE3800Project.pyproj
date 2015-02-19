@@ -52,6 +52,7 @@
     <Folder Include="SE3800Project\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\templates\app\adduser.html" />
     <Content Include="requirements.txt" />
     <Content Include="db.sqlite3" />
     <Content Include="app\static\app\content\bootstrap.css" />

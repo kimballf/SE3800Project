@@ -31,3 +31,8 @@ class ViewTest(TestCase):
         """Tests the about page."""
         response = self.client.get('/about')
         self.assertContains(response, 'About', 3, 200)
+
+    def test_adduser(self):
+        response = self.client.post('/adduser', {'username':'TestUser', 'email':'test@email.com'})
+        self.assertEquals(response.status_code, 200)
+        

@@ -7,6 +7,8 @@ from django.http import HttpRequest
 from django.template import RequestContext
 from datetime import datetime
 
+from app.models import Account
+
 def home(request):
     """Renders the home page."""
     assert isinstance(request, HttpRequest)
@@ -22,6 +24,7 @@ def home(request):
 
 def contact(request):
     """Renders the contact page."""
+    
     assert isinstance(request, HttpRequest)
     return render(
         request,
@@ -30,6 +33,20 @@ def contact(request):
         {
             'title':'Contact',
             'message':'Your contact page.',
+            'year':datetime.now().year,
+        })
+    )
+
+def adduser(request):
+    a = Account(username=request.POST['username'], email=request.POST['email'])
+    a.save()
+    return render(
+        request,
+        'app/adduser.html',
+        context_instance = RequestContext(request,
+        {
+            'title':'Added User',
+            'message':'Success!',
             'year':datetime.now().year,
         })
     )

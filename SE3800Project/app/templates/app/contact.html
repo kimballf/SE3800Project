@@ -6,6 +6,16 @@
 <h3>{{ message }}</h3>
 
 <address>
+
+    <form action="/adduser" method="post">
+        {% csrf_token %}
+        <label for="username">Username: </label>
+        <input id="username" type="text" name="username" value="">
+        <label for="email">Email: </label>
+        <input id="email" type="text" name="email" value="">
+        <input type="submit" value="OK">
+    </form>
+
     One Microsoft Way<br />
     Redmond, WA 98052-6399<br />
     <abbr title="Phone">P:</abbr>
