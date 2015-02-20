@@ -5,6 +5,8 @@ python:
 # command to install dependencies, e.g. pip install -r requirements.txt --use-mirrors
 install:
   - pip install -r SE3800Project/requirements.txt --use-mirrors
+  - pip install scrutinizer-ocular 
 # command to run tests, e.g. python setup.py test
 script:  
   - python SE3800Project/manage.py test SE3800Project/
+  - ocular --data-file ".coverage" --config-file ".coveragerc"
