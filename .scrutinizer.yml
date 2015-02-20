@@ -1,1 +1,5 @@
-ECHO is on.
+tools:
+	external-code-coverage:
+		timeout: 300
+		runs: 1
+		
