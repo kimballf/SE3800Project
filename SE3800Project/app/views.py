@@ -67,6 +67,20 @@ def userlist(request):
         })
     )
 
+def cleardb(request):
+    for a in Account.objects.all():
+        a.delete()
+    return render(
+        request,
+        'app/cleardb.html',
+        context_instance = RequestContext(request,
+        {
+            'title':'User List Cleared',
+            'message':'Bye users!',
+            'year':datetime.now().year,
+        })
+    )
+
 def about(request):
     """Renders the about page."""
     assert isinstance(request, HttpRequest)
