@@ -53,6 +53,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\templates\app\adduser.html" />
+    <Content Include="app\templates\app\userlist.html" />
     <Content Include="requirements.txt" />
     <Content Include="db.sqlite3" />
     <Content Include="app\static\app\content\bootstrap.css" />

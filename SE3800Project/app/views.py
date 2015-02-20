@@ -51,6 +51,22 @@ def adduser(request):
         })
     )
 
+def userlist(request):
+    user_list = []
+    for a in Account.objects.all():
+        user_list.append(a.username)
+    return render(
+        request,
+        'app/userlist.html',
+        context_instance = RequestContext(request,
+        {
+            'title':'User List',
+            'message':'The list of users',
+            'user_list':user_list,
+            'year':datetime.now().year,
+        })
+    )
+
 def about(request):
     """Renders the about page."""
     assert isinstance(request, HttpRequest)
