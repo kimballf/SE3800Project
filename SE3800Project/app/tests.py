@@ -35,4 +35,4 @@ class ViewTest(TestCase):
     def test_adduser(self):
         response = self.client.post('/adduser', {'username':'TestUser', 'email':'test@email.com'})
         self.assertEquals(response.status_code, 200)
-        console.log("something")
+        console.log("somethingelse")
