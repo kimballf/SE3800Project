@@ -8,4 +8,4 @@ install:
   - pip install -r SE3800Project/requirements.txt --use-mirrors
 # command to run tests, e.g. python setup.py test
 script:  
-  - python SE3800Project/manage.py test
+  - python SE3800Project/manage.py test SE3800Project/
