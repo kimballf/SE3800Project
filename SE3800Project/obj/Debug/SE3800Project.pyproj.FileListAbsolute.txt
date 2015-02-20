@@ -1,0 +1,15 @@
+d:\mydocs\documents\visual studio 2013\Projects\SE3800Project\SE3800Project\bin\Microsoft.PythonTools.WebRole.dll
+d:\mydocs\documents\visual studio 2013\Projects\SE3800Project\SE3800Project\obj\Debug\attach_server.py
+d:\mydocs\documents\visual studio 2013\Projects\SE3800Project\SE3800Project\obj\Debug\visualstudio_py_debugger.py
+d:\mydocs\documents\visual studio 2013\Projects\SE3800Project\SE3800Project\obj\Debug\visualstudio_py_repl.py
+d:\mydocs\documents\visual studio 2013\Projects\SE3800Project\SE3800Project\obj\Debug\visualstudio_py_util.py
+d:\mydocs\documents\visual studio 2013\Projects\SE3800Project\SE3800Project\obj\Debug\__init__.py
+d:\mydocs\documents\visual studio 2013\Projects\SE3800Project\SE3800Project\obj\Debug\__main__.py
+d:\mydocs\documents\visual studio 2013\Projects\SE3800Project\SE3800Project\bin\AzureSetup.cfg
+d:\mydocs\documents\visual studio 2013\Projects\SE3800Project\SE3800Project\bin\Microsoft.PythonTools.AzureSetup.exe
+d:\mydocs\documents\visual studio 2013\Projects\SE3800Project\SE3800Project\bin\Microsoft.PythonTools.AzureSetup.exe.config
+d:\mydocs\documents\visual studio 2013\Projects\SE3800Project\SE3800Project\bin\wfastcgi.py
+d:\mydocs\documents\visual studio 2013\Projects\SE3800Project\SE3800Project\obj\Debug\deployment-updated-pyvenv.cfg
+d:\mydocs\documents\visual studio 2013\Projects\SE3800Project\SE3800Project\ptvs_virtualenv_proxy.py
+d:\mydocs\documents\visual studio 2013\Projects\SE3800Project\SE3800Project\obj\Debug\web.config
+d:\mydocs\documents\visual studio 2013\Projects\SE3800Project\SE3800Project\obj\Debug\web.debug.config
